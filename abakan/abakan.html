@@ -1,0 +1,353 @@
+<html class="lt_city">
+
+<head>
+    <meta charset="utf-8">
+    <title>Дешевые авиабилеты Абакан.</title>
+    <meta name="description" content="Дешевые билеты на самолет Абакан. Купить авиабилеты дешево. ">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="ru-RU" code="ru">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <script mcbasehead-core>
+        window.addEventListener('load', function () {
+            document.fonts.ready.then(function () {
+                if (typeof mc === 'undefined')
+                    return;
+                document.body.classList.add('font-ready');
+                mc('html').addClass('ready');
+                mc('script[mcbasehead-core]').remove();
+                /** Dynamic Modules **/
+                mc('module').each(function (i, a) {
+                    const item = mc(this).attr('item');
+                    const param = mc(this).attr('param');
+                    const target = mc(this);
+                    mc.ajax({
+                        action: 'loadDynamicModule',
+                        data: {
+                            item: item,
+                            param: json_decode(param),
+                        },
+                        success: function (a, b, c) {
+                            const x = mc(a);
+                            target.replaceWith(x);
+                            setTimeout(() => {
+                                mc.pictureUpd()
+                            }
+                                , 100);
+                        }
+                    });
+                });
+            });
+        });
+        /** Pictures **/
+        const mcPictureResize = (a) => {
+            a.setAttribute('sizes', a.parentElement.offsetWidth + 'px')
+        }
+            ;
+        document.addEventListener('DOMContentLoaded', function mcPictureonDOMContentLoaded() {
+            document.querySelectorAll('.mcpicture img').forEach(function (img) {
+                mcPictureResize(img);
+                const resizeObserver = new ResizeObserver(() => mcPictureResize(img));
+                resizeObserver.observe(img);
+            });
+            document.removeEventListener('DOMContentLoaded', mcPictureonDOMContentLoaded);
+        });
+        const pictureUpd = function (thumb) {
+            const mcpicture = thumb.closest('.mcpicture');
+            /* Добавляем класс, если изображение загружено */
+            thumb.addEventListener('load', function () {
+                mcpicture.classList.add('a');
+            }, {
+                once: true
+            });
+            if (thumb.complete)
+                mcpicture.classList.add('a');
+            /* Поиск изображения base */
+            const base = mcpicture.querySelector('img[type="base"]');
+            if (!base)
+                return;
+            const xsrcset = base.getAttribute('xsrcset');
+            if (!xsrcset)
+                return;
+            /* Устанавливаем srcset и удаляем xsrcset */
+            base.setAttribute('srcset', xsrcset);
+            /* Удаляем xsrcset после загрузки */
+            base.addEventListener('load', function () {
+                base.removeAttribute('xsrcset');
+                mcpicture.classList.add('b');
+            }, {
+                once: true
+            });
+            if (base.complete) {
+                base.removeAttribute('xsrcset');
+                mcpicture.classList.add('b');
+            }
+        };
+        window.addEventListener('load', function mcPictureonWindowLoaded() {
+            document.querySelectorAll('.mcpicture:not(.a) img[type="thumb"]').forEach(function (thumb) {
+                pictureUpd(thumb)
+            });
+            /* Удаляем обработчик события после выполнения */
+            window.removeEventListener('load', mcPictureonWindowLoaded);
+        });
+        (function () {
+            document.querySelectorAll('script[name="mcPicture"]').forEach(function (script) {
+                script.remove()
+            })
+        }
+        )();
+    </script>
+    <link rel="icon" type="image/svg+xml" sizes="256x256"
+        href="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_256x256.svg?1737963560">
+    <link rel="icon" type="image/svg+xml" sizes="128x128"
+        href="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_128x128.svg?1737963560">
+    <link rel="icon" type="image/svg+xml" sizes="64x64"
+        href="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_64x64.svg?1737963560">
+    <link rel="icon" type="image/svg+xml" sizes="32x32"
+        href="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_32x32.svg?1737963560">
+    <link rel="icon" type="image/svg+xml" sizes="16x16"
+        href="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_16x16.svg?1737963560">
+    <meta property="og:site_name" content="flycheap" />
+    <meta property="og:title" content="Купить авиабилеты дешево -Лучшие предложения на билеты на самолет" />
+    <meta property="og:description"
+        content="Найдите самые низкие цены на авиабилеты. Сравните тарифы различных авиакомпаний и выберите лучшее предложение для вашего следующего путешествия." />
+    <meta property="og:image" content="/media/favicon/5ebb127a68df5749659f5f3d4980ea83_512x512.svg" />
+    <link rel="stylesheet" mclib href="/cache/mclib_55a3e8fe62cdde0b6ce4aad6cb7ba0f7.css">
+    <link rel="stylesheet" local href="/cache/local_a503e27c781930f25859d08a760788ea.css">
+    <script mclib src="/cache/mclib_856480090e1faa1bc7306bce75bc9c7d.js" defer></script>
+    <script local src="/cache/local_3203aee366c5f633fe57aad43d7840b4.js" defer></script>
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            }
+                ;
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t),
+                a = e.getElementsByTagName(t)[0],
+                k.async = 1,
+                k.src = r,
+                a.parentNode.insertBefore(k, a)
+        }
+        )(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(97452719, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/97452719" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <script type="text/javascript">
+        var _tmr = window._tmr || (window._tmr = []);
+        _tmr.push({
+            id: "3523438",
+            type: "pageView",
+            start: (new Date()).getTime()
+        });
+        (function (d, w, id) {
+            if (d.getElementById(id))
+                return;
+            var ts = d.createElement("script");
+            ts.type = "text/javascript";
+            ts.async = true;
+            ts.id = id;
+            ts.src = "https://top-fwz1.mail.ru/js/code.js";
+            var f = function () {
+                var s = d.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(ts, s);
+            };
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        }
+        )(document, window, "tmr-code");
+    </script>
+    <noscript>
+        <div>
+            <img src="https://top-fwz1.mail.ru/counter?id=3523438;js=na" style="position:absolute;left:-9999px;"
+                alt="Top.Mail.Ru" />
+        </div>
+    </noscript>
+    <meta name="yandex-verification" content="572c8c7fb682c0bd" />
+    <script data-noptimize="1" data-cfasync="false" data-wpfc-render="false">
+        (function () {
+            var script = document.createElement("script");
+            script.async = 1;
+            script.src = 'https://emrldtp.cc/MzI4MDc1.js?t=328075';
+            document.head.appendChild(script);
+        }
+        )();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="flexDiv JSB mobCssClas">
+                <div class="logoHead">
+                    <a href="/">
+                        <img src="/media/newLogo.svg" loading="lazy" alt="flycheap logo">
+                    </a>
+                </div>
+                <div class="flexDiv rightAside">
+                    <a href="https://t.me/flycheap_tickets" class="">
+                        <div class="tgIcon">Telegram канал</div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="wrap">
+            <d class="flex-reverseMob">
+                <section class="secClass one">
+                    <div class="mainTextCont flexDiv">
+                        <div class="mainTextLeft flexDiv FDC">
+                            <div class="mainTextBlock blueColor">Cамые дешёвые авиабилеты на самолёт</div>
+                            <div class="mainTextBlock">
+                                <h1>Дешевые авиабилеты Абакан</h1>
+                            </div>
+                            <div class="mainTextBlock greyColor">Мы специализируемся на поиске самых дешёвых
+                                авиабилетов, чтобы вы могли путешествовать по миру, не переплачивая.</div>
+                        </div>
+                        <div class="mainTextRight hClasNo">
+                            <d class="mcpicture">
+                                <img type="base" alt="Абакан"
+                                    src="/media/d83b06bc0387b98135bb4b278dc415ff_thumb.png?1733235073"
+                                    xsrcset="/media/d83b06bc0387b98135bb4b278dc415ff_1x_460.png?1733235073 460w, /media/d83b06bc0387b98135bb4b278dc415ff_1.5x_690.png?1733235073 690w, /media/d83b06bc0387b98135bb4b278dc415ff_2x_920.png?1733235073 920w, /media/d83b06bc0387b98135bb4b278dc415ff_3x_1380.png?1733235073 1380w"
+                                    crossorigin="anonymous" style="aspect-ratio: 1.3001083423619">
+                                <img type="thumb" src="/media/d83b06bc0387b98135bb4b278dc415ff_thumb.png?1733235073">
+                                <d class="loader"></d>
+                            </d>
+                        </div>
+                    </div>
+                </section>
+                <d class="flex-Mob">
+                    <d class="flex-Mob">
+                        <section class="secClass two">
+                            <h2>Купить билеты на самолет дешево все авиакомпании из города Абакан</h2>
+                        </section>
+                        <section class="secClass filtr">
+                            <d class="sderh5btydxr"></d>
+                        </section>
+                    </d>
+                    <section class="secClass three">
+                        <div class="flexDiv ticketCont loading"></div>
+                    </section>
+                </d>
+            </d>
+            <section class="secClass four">
+                <h2>Дешевые авиабилеты в Абакан: лучшие предложения и эксклюзивные скидки</h2>
+                <div class="textForPage">
+                    <h3>Покупайте авиабилеты дешево на самолет в Абакан</h3>
+                    <p>Откройте для себя Абакан, не переплачивая за перелет. Мы собрали для вас самые выгодные
+                        предложения на авиабилеты в Абакан, чтобы вы могли насладиться его природой и культурным
+                        наследием. Бронируйте прямые рейсы дешево и экономьте с Aviasales.</p>
+                    <h3>Самые дешевые авиабилеты на самолет: Абакан ждет вас!</h3>
+                    <p>На нашем сайте представлены самые дешевые прямые рейсы в Абакан. Сравнивайте цены, находите
+                        авиабилеты дешево на официальном сайте Aviasales и покупайте билеты без пересадок. Мы предлагаем
+                        лучшие цены и удобный поиск, чтобы ваше путешествие прошло идеально.</p>
+                    <h3>Дешевые авиабилеты из Москвы в Абакан</h3>
+                    <p>Ищете популярные и доступные рейсы в Абакан? Мы предлагаем дешевые авиабилеты на прямые рейсы из
+                        Москвы, самого популярного города для путешествий в Абакан. Планируйте свою поездку заранее и
+                        бронируйте билеты по лучшим ценам. Путешествуйте с комфортом и экономией, воспользовавшись
+                        нашими специальными предложениями.</p>
+                </div>
+            </section>
+        </div>
+        <div id="plane"></div>
+        <footer>
+            <div class="flexDiv FDC">
+                <div class="flexDiv footBlock1">
+                    <div class="logoHead">
+                        <a href="/">
+                            <img src="/media/newLogo.svg" loading="lazy" alt="flycheap logo">
+                        </a>
+                    </div>
+                    <div class="flexDiv rightAside">
+                        <a href="https://t.me/flycheap_tickets" class="">
+                            <div class="tgIcon">Не пропустите ваш билет!</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footText">
+                    <p>Подписывайтесь на наш Telegram канал, где мы ежедневно публикуем самые выгодные предложения на
+                        авиабилеты Абакан. Узнавайте о лучших скидках и специальных акциях первыми, чтобы планировать
+                        свои путешествия выгодно и удобно.</p>
+                </div>
+            </div>
+            <div class="flexDiv asddas2">
+                <div class="xcde3">
+                    <p>© 2025 г. Флай Чип. Все права защищены.</p>
+                </div>
+                <d class="privacyF">
+                    <a href="https://flycheap.store/privacy/" target="_blank" class="">Политика обработки персональных
+                        данных</a>
+                </d>
+                <div class="xcde3d">
+                    <a href="mailto:support@flycheap.store">support@flycheap.store</a>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script>
+        document.addEventListener('mclibLoaded', function (e) {
+            mc.ajax({
+                action: 'getSelectCity',
+                success: function (a, b, c) {
+                    mc('body').addClass('forSerah');
+                    mc('.sderh5btydxr').field({
+                        field: 'select',
+                        title: '',
+                        small: 'Найти город',
+                        name: 'filtrcity',
+                        class: 'filr',
+                        select: [{
+                            placeholder: 'Куда летим?',
+                            search: true,
+                            width: '100%',
+                            onChange: function (self) {
+                                console.log(self.set[0]);
+                                const a = self.set[0];
+                                if (!zero(self.set)) {
+                                    mc('.ticketBlock[to]').addClass('hd');
+                                    mc('.ticketBlock[to]').each(function () {
+                                        if (mc(this).attr('to') == a)
+                                            mc(this).removeClass('hd');
+                                    })
+                                } else
+                                    mc('.ticketBlock[to]').removeClass('hd');
+                            }
+                        }, json_decode(a)],
+                    });
+                }
+            });
+            mc.ajax({
+                action: 'getTicketCity',
+                data: {
+                    id: '71',
+                },
+                success: function (a, b, c) {
+                    mc('.ticketCont').html(a);
+                }
+            });
+        });
+    </script>
+    <div id="loader">
+        <img class="loader-circle" src="/media/444.png" alt="Loading Logo">
+    </div>
+    <div id="plane"></div>
+</body>
+
+</html>
